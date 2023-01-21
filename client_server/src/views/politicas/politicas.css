@@ -1,0 +1,20 @@
+
+h1, h2{
+    padding: 32px;
+}
+.datos, .politicas{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+ 
+.politicas p{
+    padding: 8px;
+    justify-content: baseline;
+}
+.datos li {
+    padding: 8px;
+}
+.datos ol{
+    padding: 32px;
+}

@@ -1,0 +1,22 @@
+footer{
+    background-image: linear-gradient(var(--primario),var(--negro));
+      
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.izq{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+   
+}
+.drch{
+   display: flex;
+   max-width: 100%;
+   flex-direction: column;
+}

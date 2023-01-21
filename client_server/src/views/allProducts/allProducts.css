@@ -1,0 +1,20 @@
+.todosProductos{
+    display: flex;
+    max-width: 80%;
+    flex-wrap: wrap;
+    gap:24px;
+    row-gap: 24px;
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    padding: 32px;
+}
+.categorias{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 32px;
+    
+}

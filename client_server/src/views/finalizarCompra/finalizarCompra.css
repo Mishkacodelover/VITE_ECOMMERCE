@@ -1,0 +1,18 @@
+
+
+.finalizar_compra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    max-width: 100%;
+    padding: 56px;
+ 
+}
+
+
+.finalizar_compra h3{
+    text-align: center;
+    margin-bottom: 24px;
+}

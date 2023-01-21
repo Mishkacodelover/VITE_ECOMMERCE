@@ -1,0 +1,12 @@
+.destacada{
+    display: flex;
+    height: 260px;
+    background-image: url(../../../assets//perfumes/posion.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.destacada p{
+    color: var(--blanco);
+}

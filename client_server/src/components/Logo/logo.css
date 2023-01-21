@@ -1,0 +1,33 @@
+/*logo de cabecera*/
+.logo{
+    display: flex;
+    flex: auto;
+    padding-left: 40px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.logo h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+/*logo del footer*/
+.milogo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.milogo{
+    display: flex;
+    flex: auto;
+    padding-left: 148px;
+    padding-top: 40px;
+    
+}
+.milogo h4{
+    padding-top: 24px;
+    padding-left: 18px;
+    color: var(--blanco);
+}

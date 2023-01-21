@@ -1,0 +1,12 @@
+.icono-grp{
+    display: flex;
+    margin-top: 16px;
+    padding: 8px;
+}
+.icono-grp div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 16px;
+
+}

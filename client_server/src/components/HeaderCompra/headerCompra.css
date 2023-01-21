@@ -1,0 +1,27 @@
+ .headerCompra{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 16px;
+}
+.compraIzq, .compraDrch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compraDrch{
+    width: 70%;
+   justify-content: flex-end;
+}
+.compraIzq {
+    width: 30%;
+}
+.compraDrch button{
+    padding: 12px;
+    padding-left: 18px;
+}
+.compraDrch div{
+   padding: 8px;
+}
+

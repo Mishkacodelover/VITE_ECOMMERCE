@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    font-size: var(--letra_boton);
+    background-color: var(--primario);
+    background-image: linear-gradient(var(--primario), var(--negro));
+
+}
+.menu li{
+    display: inline-block;
+    padding-inline: 20px;
+    text-transform: uppercase;
+   
+}
+.menu li a{
+    color: var(--blanco);  
+}
+.menu li:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s;
+}
+
+.menu li a:hover{
+    color: var(--blanco);
+     
+}

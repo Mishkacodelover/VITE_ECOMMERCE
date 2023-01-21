@@ -1,0 +1,31 @@
+
+.formularios{
+    display: flex;
+}
+.caja{
+    display: flex;
+    padding: 80px;
+    align-items: flex-start;
+}
+
+
+.caja form {
+    text-align: center;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: var(--blanco);
+    box-shadow: 1px 1px 8px 4px var(--gris_claro);
+    color: var(--negro);
+    
+}
+.caja form h3{
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.caja form p{
+    margin-bottom: 16px;
+}
+
+.checkbox a:hover{
+    color: var(--primario_claro);
+}

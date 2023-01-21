@@ -1,0 +1,22 @@
+.drch{
+    width: 560px;
+}
+
+.frases{
+ display: flex;
+ height: 172px;
+
+}
+.frases ul{
+       padding-inline: 48px;
+    }
+.frases li{
+        list-style: none;
+        padding: 8px;
+   }
+.frases a{
+    color: var(--blanco);
+}
+.frases li:hover{
+    font-weight: bold;
+}

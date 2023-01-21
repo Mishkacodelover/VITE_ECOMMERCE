@@ -1,0 +1,14 @@
+.misPedidos{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+
+.orders{
+    display: flex;
+    padding: 40px;
+    max-width: 100%;
+    border: 1px solid var(--gris_claro);
+    box-shadow: 1px 1px 8px 4px var(--gris_claro);
+}

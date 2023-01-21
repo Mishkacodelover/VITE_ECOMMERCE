@@ -1,0 +1,65 @@
+.favoritos{
+    display: flex;
+    box-sizing: border-box;
+    background-color: var(--blanco);
+    justify-content: center;
+}
+.productos-favoritos{
+    background-color: var(--blanco);
+    text-align: center;
+    height: 96px;
+    
+}
+.productos-favoritos h1{
+    padding-top: 32px;
+    color: var(--gris_oscuro);
+}
+.opinion{
+  
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.opinion h3{
+    padding: 8px 8px 16px 8px;
+    color: var(--gris_oscuro);
+    
+}
+.opinion p{
+    padding-bottom: 16px;
+ 
+}
+
+.usuarios{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap:16px;
+}
+.usuarios div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+    box-shadow: 1px 2px 4px 1px var(--gris_claro);
+}
+.usuarios p{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.usuarios p:first-child{
+    font-weight: bold;
+}
+.todasOpiniones{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: radial-gradient(var(--blanco),var(--gris_claro));
+  
+    font-weight: bold;
+
+    
+}

@@ -1,0 +1,27 @@
+
+.button{
+    padding: 8px 16px;
+    border-radius: 32px;
+    border: none;
+    font-size: var(--letra_boton);
+    background-image: radial-gradient(var(--primario),var(--gris_oscuro));
+    color:var(--blanco);
+    text-align: center;
+}
+.buttonform{
+    width: 100%;
+    padding: 8px;
+    border-radius: 32px;
+    border: none;
+  
+    background-image: linear-gradient(var(--primario_claro),var(--primario_oscuro));
+    /* background-image: radial-gradient(var(--primario),var(--gris_oscuro)); */
+    font-size: var(--letra_boton);
+    font-weight: bold;
+    color: var(--blanco);
+    cursor: pointer;
+}
+.buttonform:hover{
+    color: var(--negro);
+    
+}

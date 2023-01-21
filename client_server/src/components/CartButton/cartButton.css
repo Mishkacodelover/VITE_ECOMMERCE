@@ -1,0 +1,32 @@
+.button.carrito {
+  background-image: radial-gradient(var(--primario), var(--gris_oscuro));
+  cursor: pointer;
+  /* font-weight: bold; */
+  padding: 12px 16px;
+  border-radius: 32px;
+  border: none;
+  font-size: var(--letra_boton);
+  color: var(--blanco);
+  text-align: center;
+}
+
+.circulo {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: var(--primario_claro);
+}
+.contador {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+.carrito {
+  position: relative;
+}
+.bi.bi-cart {
+  padding: 4px;
+}

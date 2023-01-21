@@ -1,0 +1,22 @@
+
+/*boton de pago pedido*/
+.pagar{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.pagar div{
+    padding: 8px;
+}
+
+.pagar p{
+display: inline;
+}
+
+.pagar .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+

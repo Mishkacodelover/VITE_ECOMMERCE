@@ -1,0 +1,58 @@
+.cajas{
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    gap: 32px;
+    max-width: 100%;
+   
+}
+.cajas h3{
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: var(--gris_oscuro);
+}
+.caja2, .caja1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+}
+.caja1 label{
+    display: contents;
+}
+.input-grp input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-shadow: 1px 1px 16px 2px inset var(--gris_claro);
+    color: var(--negro);
+    border-radius: 16px;
+    border: 1px solid var(--gris_claro);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+
+}
+
+.input-grp.radio input {
+    display: inline;
+    max-width: 60%;
+    padding: 8px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    margin-bottom: 16px;
+
+}
+
+.input-grp.radio{
+    padding: 16px;
+}
+
+.caja2 form, .caja1 form{
+    background-color: var(--blanco);
+    box-shadow: 1px 1px 8px 4px var(--gris_claro);
+    color: var(--negro);
+    margin: 0;
+    padding: 32px;
+}

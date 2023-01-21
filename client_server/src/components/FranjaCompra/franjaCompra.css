@@ -1,0 +1,29 @@
+.comprar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-image: linear-gradient(var(--primario), var(--negro));
+}
+.comprar h1{
+    color: var(--blanco);
+    padding-left: 44px;
+    font-weight: 400;
+}
+
+.seguir_comprando{
+    padding-right: 16px;
+}
+#comprando{
+    background-image: var(--blanco);
+    color: var(--gris_oscuro);
+    font-size: var(--letra_boton);
+    font-weight: bold;
+    border: 1px solid var(--gris_claro);
+    box-shadow: 2px 2px 16px 8px var(--gris_claro)inset;
+}
+#comprando.button:hover{
+    color: var(--gris_oscuro);
+    background-color: var(--gris_claro);
+}

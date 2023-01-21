@@ -1,0 +1,16 @@
+.tarjetas{
+    display: flex;
+    background-color: var(--blanco);
+}
+.tarjetas div{
+    width: 100%;
+    height: 156px;
+    text-align: center;
+ }
+ .tarjetas div:hover{
+    background-image: radial-gradient(var(--gris_claro),var(--blanco));
+ }
+ .tarjetas img{
+    margin-top: 24px; 
+ }
+ 
